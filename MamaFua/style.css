@@ -1,0 +1,125 @@
+*{
+    padding: 0%;
+    margin: 0;
+}
+.Logo img{
+    height: 50px;
+    width: auto;
+}
+.logo{
+    display: inline-block;
+    padding: 15px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-menu li{
+    margin: 10px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.Mama img{
+    height:300px;
+    width: auto;
+}
+.Hero{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #f9faf8;
+    background-color: #1F2937;
+}
+.hero-para{
+    font-weight: bolder;
+    font-size: 48px;
+}
+.para{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding-top: 20px;
+}
+.btn-class{
+    padding-top: 20px;
+}
+.btn{
+    background-color: #3882F6;
+    padding: 4px 10px;
+    border-radius: 4px;
+    color: #E5E7EB;
+    border-color: #3882F6;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 40px;
+}
+.image-box img{
+    height: 100px;
+    width: auto;
+    padding: 10px;
+    margin: 10px;
+}
+.image-box p{
+    font-size: small;
+}
+.test{
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 16px;
+    font-weight: light;
+    font-style: italic;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.action{
+    background-color: #3882F6;
+    height: 60px;
+    width: auto;
+    margin: 100px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #E5E7EB;
+    padding: 10px;
+}
+.button-color{
+    background-color: #3882F6;
+    border-color: white;
+    border-radius: 4px;
+    color: #E5E7EB;
+    padding: 3px 10px;
+}
+footer{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    /*position: fixed;*/
+    bottom: 0%;    
+    left:0;
+    right:0;
+    padding: 15px;
+}
